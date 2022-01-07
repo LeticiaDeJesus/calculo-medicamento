@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
     <title>Cálculo de Medicamento</title>
 </head>
 <body>
@@ -14,24 +13,24 @@
 
         <div class="menu">
             
-            <input type="button" value="Cálculo de medicamento" class="btn-menu" onclick="regraDeTres()" >                 
-            <input type="button" value="Cálculo de gotas por minuto" class="btn-menu" onclick="gotejamentoGotas()" > 
-            <input type="button" value="Cálculo de microgotas por minuto" class="btn-menu" onclick="gotejamentoMicrogotas()" > 
-            <input type="button" value="Cálculo de Insulinoterapia" class="btn-menu" onclick="insulinoterapia()" > 
+            <input type="button" value="Cálculo de medicamento" class="btn-menu medicamento" onclick="regraDeTres()" >                 
+            <input type="button" value="Cálculo de gotas por minuto" class="btn-menu gotas" onclick="gotejamentoGotas()" > 
+            <input type="button" value="Cálculo de microgotas por minuto" class="btn-menu microgotas" onclick="gotejamentoMicrogotas()" > 
+            <input type="button" value="Cálculo de Insulinoterapia" class="btn-menu insulinoterapia" onclick="insulinoterapia()" > 
 
             
         </div>
 
         <div class="calculator-med">
-            <input type="text" name="visor" value="Resultado" class="visor" disabled>
+            <input type="text" name="visor" value="Resultado" id="visor">
 
-            <input type="text" value="Quantidade disponível" class="btn1" onfocus="this.value='';">
-            <input type="text" value="Quantidade em ml" class="btn2" onfocus="this.value='';">
+            <input type="text" value="Quantidade em ml" class="btn1" onfocus="this.value='';">
+            <input type="text" value="Quantidade em mg" class="btn2" onfocus="this.value='';">
             <input type="text" value="Quantidade prescrita" class="btn3" onfocus="this.value='';">
             <input type="text" value="Tempo" class="btn4" onfocus="this.value='';">
 
-            
-            <input type="submit" name="" value="Calcular" class="btn-calcular" onclick="SubmitEvent">
+            <input type="button" value="Calcular" class="btn-calcular">
+
         </div>
     </div>
     <div class="paragrafo">
@@ -46,6 +45,8 @@
         <p>1 colher de café	= 3 mililitros (ml)</p>
 
     </div>
-    
+
+    <script src="script.js"></script>   
 </body>
+
 </html>

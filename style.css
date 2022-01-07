@@ -61,7 +61,7 @@ h1 {
 
 }
 
- .visor {
+ #visor {
      display: block;
      margin: 0 auto;
      text-align: center;
@@ -71,7 +71,7 @@ h1 {
      font-size: 18px;
      font-family: 'Merriweather', serif;
      font-weight: 700;
-     border: black solid 0.4px;
+     border: none;
      background-color: #F2F2F2;
  }
 
