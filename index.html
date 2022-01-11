@@ -13,7 +13,7 @@
 
         <div class="menu">
             
-            <input type="button" value="Cálculo de medicamento" class="btn-menu medicamento" onclick="regraDeTres()" >                 
+            <input type="button" value="Cálculo de medicamento" class="btn-menu medicamento" onclick="" >                 
             <input type="button" value="Cálculo de gotas por minuto" class="btn-menu gotas" onclick="gotejamentoGotas()" > 
             <input type="button" value="Cálculo de microgotas por minuto" class="btn-menu microgotas" onclick="gotejamentoMicrogotas()" > 
             <input type="button" value="Cálculo de Insulinoterapia" class="btn-menu insulinoterapia" onclick="insulinoterapia()" > 
@@ -22,12 +22,12 @@
         </div>
 
         <div class="calculator-med">
-            <input type="text" name="visor" value="Resultado" id="visor">
-
-            <input type="text" value="Quantidade em ml" class="btn1" onfocus="this.value='';">
-            <input type="text" value="Quantidade em mg" class="btn2" onfocus="this.value='';">
-            <input type="text" value="Quantidade prescrita" class="btn3" onfocus="this.value='';">
-            <input type="text" value="Tempo" class="btn4" onfocus="this.value='';">
+            <input type="text" placeholder="Resultado" id="visor" disabled>
+    
+            <input type="number" placeholder="ml" class="btn1">
+            <input type="number" placeholder="mg" class="btn2">
+            <input type="number" placeholder="em mg" class="btn3">
+            <input type="number" placeholder="Tempo" class="btn4">
 
             <input type="button" value="Calcular" class="btn-calcular">
 
