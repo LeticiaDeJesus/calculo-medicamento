@@ -4,8 +4,6 @@ let btnCalcular = document.querySelector('.btn-calcular');
 let resultado = parseFloat;
 
 
-}
-
 function medicamento() {
     let btn1 = parseFloat( document.getElementsByClassName("btn1")[0].value);
     let btn2 = parseFloat( document.getElementsByClassName("btn2")[0].value);
@@ -47,5 +45,5 @@ function insulinoterapia() {
                     
                 
 }
-            btnCalcular.addEventListener('click', insulinoterapia             i);
+            btnCalcular.addEventListener('click', insulinoterapia);
 
