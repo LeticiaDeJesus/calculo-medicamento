@@ -4,67 +4,78 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-sizing: none;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    
 
 }
 
 body {
+    
     height: 100vh;
     width: 100vw;
-    background-color: #262626;
+    background: linear-gradient(to bottom, #000 20%, #712875 );
 }
 h1 {
     text-align: center;
     padding-top: 40px;
     font-family: 'Staatliches', cursive;
     font-size: 44px;
-    color: #595959;
+    color: #fff;
 }
 
 .calculator {
     display: flex;
     flex-direction: column;
-    gap: 70px;
-    padding-top: 10px;
+    padding-top: 40px;
+    margin: auto;
+    position: relative;
         
 }
 
+
 .menu {
-    position: relative;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: auto;
+
     
 }
 
-.btn-menu {
-     text-align: center;
-     height: 45px ;
-     margin-right: 8px ;
-     margin-top: 30px;
-     font-family: 'Merriweather', serif;
-     font-weight: 700;
-     padding-right: 10px;
-     padding-left: 10px; 
-     background-color: #F2F2F2;
+span {
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    
+    
 }
 
-.btn-menu:hover {
-    background-color: grey;
+span:hover {
+
+    background-color:#fff;
+    color: #712875;
     cursor: pointer;
-    color: #fff;
+    transform: translateY(10px);
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
 }
 
-.calculator-med {
-    display: block;
-    margin: 0 auto;
 
-}
+ .calculator-med {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+ 
+ 
+ }
 
  #visor {
-     display: block;
-     margin: 0 auto;
-     text-align: center;
+     display: flex;
      height: 60px;
      border-radius: 5px;
      color: black;
@@ -73,6 +84,10 @@ h1 {
      font-weight: 700;
      border: none;
      background-color: #F2F2F2;
+     width: 300px;
+     text-align: center;
+     padding: 19px 0 0 100px;
+     
  }
 
  .btn-calcular {
@@ -86,7 +101,7 @@ h1 {
     color: #fff; 
     border-radius: 20px;
     font-family: 'Merriweather', serif;
-    font-weight: 700;
+    font-weight: 500;
  }
  .btn-calcular:hover {
      cursor: pointer;
@@ -97,15 +112,24 @@ h1 {
  .btn1, .btn2, .btn3, .btn4 {
      text-align: center;
      height: 45px ;
-     margin-right: 8px ;
+     margin-right: 8px;
      margin-top: 30px;
      font-family: 'Merriweather', serif;
-     font-weight: 700; 
+     font-weight: 900;
+    
  }
+ @media (max-width: 700px)
+{
+  
+   span {
+       font-size: 10px;
+       font-weight: 900;
+       
+   }
+}
 
- .paragrafo {
-     padding-left: 20px;
-     padding-bottom: 18px;
-     color: #F2F2F2;
 
- }
+  
+
+
+

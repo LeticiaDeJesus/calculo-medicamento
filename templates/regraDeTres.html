@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Medicamento - Regra de três simples</title>
+    <link rel="stylesheet" href="../static/assets/style.css">
+
+</head>
+<body>
+    <h1>Cálculo de Medicamento</h1>
+    
+    <div class="calculator">
+
+        <div class="menu">
+            
+            <a class="option" href="regraDeTres.html"><span>Simples</span></a>
+            <a class="option" href="gotas.html"><span>Gotas</span></a>
+            <a class="option" href="microgotas.html"><span>Microgotas</span></a>
+            <a class="option" href="insulina.html"><span>Insulinoterapia</span></a>
+            
+        </div>
+
+        <div class="calculator-med">
+            <p id="visor">resultado</p>
+    
+            <input type="number" placeholder="quantidade em ml" class="btn1">
+            <input type="number" placeholder="quantidade em mg" class="btn2">
+            <input type="number" placeholder="prescrição em mg" class="btn3">
+            
+
+            <input type="button" value="Calcular" class="btn-calcular" onclick="medicamento()">
+
+        </div>
+    </div>
+
+
+    <script src="../static/assets/script.js"></script>   
+</body>
+
+</html>
