@@ -11,13 +11,17 @@ Realiza quatro tipos de cálculos:
 - Microgotas e Gotas utilizam suas devidas fórmulas afim de verificar quantas caem por minuto;
 - Insulinoterapia cálcula a quantidade de Ul de insulina aplicada no paciente.
 
+> Status do Projeto: Concluido :heavy_check_mark:
+> ![9a7c908b-2cd2-43fb-9ac7-6a3862765313](https://user-images.githubusercontent.com/89044907/152206174-d7c04a1a-34b7-444c-be93-b636f8ecedcd.jpg)
+
+
 ## :rocket: Tecnologias ##
 
-The following tools were used in this project:
 
-- HTML
-- CSS
-- JavaScript
+
+<img src="https://img.shields.io/static/v1?label=HTML&message=markup&color=orange&style=for-the-badge&logo=HTML"/>
+<img src="https://img.shields.io/static/v1?label=CSS&message=style&color=blue&style=for-the-badge&logo=CSS"/>
+<img src="https://img.shields.io/static/v1?label=JavaScript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
 
 
 ## :checkered_flag: Como usar ##
@@ -39,12 +43,4 @@ $ yarn start
 ```
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{LeticiaDeJesus}}</a>
 
-&#xa0;
-
-<a href="#top">Back to top</a>
-<<<<<<< HEAD
-=======
-
->>>>>>> c14eb4c2cfb9906e15e6abd00d3765b402e0942f
