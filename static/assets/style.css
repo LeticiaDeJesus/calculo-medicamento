@@ -58,9 +58,8 @@ span:hover {
     background-color:#fff;
     color: #712875;
     cursor: pointer;
-    transform: translateY(10px);
-    transition: 0.3s;
-    border: none;
+    transition: 0.1s;
+    border: #712875 solid 2px;
     border-radius: 5px;
 }
 
@@ -120,8 +119,8 @@ span:hover {
  }
  @media (max-width: 700px)
 {
-  
-   span {
+    
+    span {
        font-size: 10px;
        font-weight: 900;
        

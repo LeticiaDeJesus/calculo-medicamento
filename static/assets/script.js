@@ -40,7 +40,7 @@ function insulinoterapia() {
     let btn2 = parseFloat( document.getElementsByClassName("btn2")[0].value);
     let btn3 = parseFloat( document.getElementsByClassName("btn3")[0].value);
                     
-        resultado = ((btn1 * btn3) / btn2).toFixed(1);
+        resultado = ((btn1 * btn2) / btn3).toFixed(1);
 
         visor.innerHTML = resultado + " " + "Ul";
 
