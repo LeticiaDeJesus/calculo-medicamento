@@ -1,12 +1,4 @@
-<div align="center" id="top"> 
 
-  <img src="../calculo-medicamento/img/9a7c908b-2cd2-43fb-9ac7-6a3862765313.jpg" alt="Calculos de Medicamento" />
-=======
-
-
-  &#xa0;
-
-</div>
 
 <h1 align="center">Cálculos de Medicamento</h1>
 
